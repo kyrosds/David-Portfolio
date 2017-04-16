@@ -11,6 +11,11 @@
           url: '/',
           controller: 'LandingCtrl as landing',
           templateUrl: '/templates/landing.html'
+        })
+        .state('contact', {
+          url: '/contact',
+          controller: 'ContactCtrl as contact',
+          templateUrl: '/templates/contact.html'
         });
   }
 

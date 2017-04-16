@@ -1,6 +1,6 @@
 (function () {
   function LandingCtrl() {
-    this.heroTitle = "David's Portfolio";
+    this.portfolioTitle = "David's Portfolio";
   }
 
   angular
