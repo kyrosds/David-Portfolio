@@ -1,0 +1,35 @@
+*, *::before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 100%;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+nav {
+  height: auto;
+  width : 100%;
+  background-color: #2f573f;
+  opacity: .75;
+}
+
+nav a.home-link {
+  padding: 10px;
+  font-size : 40px;
+}
+
+nav a.home-link:hover {
+
+}
+
+nav a.home-link:visited {
+
+}

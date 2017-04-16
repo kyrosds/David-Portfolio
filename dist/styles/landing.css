@@ -1,4 +1,5 @@
-body.landing {
-  background-color: green;
-  background-image: url();
+body {
+  background-image: url(/assets/images/coffee-laptop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
