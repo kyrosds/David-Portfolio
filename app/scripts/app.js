@@ -1,25 +1,29 @@
-(function () {
-  function config($stateProvider, $locationProvider) {
-    $locationProvider
-      .html5Mode({
-          enabled: true,
-          requiredBase: false
-      });
+(function() {
+    function config($stateProvider, $locationProvider) {
+        $locationProvider
+            .html5Mode({
+                enabled: true,
+                requireBase: false
+            });
 
-      $stateProvider
-        .state('landing', {
-          url: '/',
-          controller: 'LandingCtrl as landing',
-          templateUrl: '/templates/landing.html'
-        })
-        .state('contact', {
-          url: '/contact',
-          controller: 'ContactCtrl as contact',
-          templateUrl: '/templates/contact.html'
-        });
-  }
+        $stateProvider
+            .state('landing', {
+                url: '/',
+                templateUrl: '/templates/landing.html'
+            })
 
-  angular
-    .module('davidPortfolio', ['ui-router'])
-    .config(config);
+            .state('contact', {
+              url: '/contact',
+              templateUrl: '/templates/contact.html'
+            })
+
+            .state('resume', {
+              url: '/resume',
+              templateUrl: '/templates/resume.html'
+            });
+    }
+
+    angular
+        .module('portfolio', ['ui.router'])
+        .config(config);
 })();
