@@ -1,93 +1,93 @@
 *, *::before, *::after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  height: 100%;
-  font-size: 100%;
-  font-family: Tahoma, Geneva, sans-serif;
+    height: 100%;
+    font-size: 100%;
+    font-family: Tahoma, Geneva, sans-serif;
 }
 
 h1 {
-  text-transform: capitalize;
+    text-transform: capitalize;
 }
 
 nav {
-  height: 100%;
-  width : 100%;
-  background-color: #2f573f;
-  opacity: .625;
+    height: 100%;
+    width: 100%;
+    background-color: #2f573f;
+    opacity: .625;
 }
 
 .navbar {
-  border-radius: 0;
-  margin-bottom: 0;
+    border-radius: 0;
+    margin-bottom: 0;
 }
 
 nav a {
-  float: left;
-  display: inline-block;
+    float: left;
+    display: inline-block;
 }
 
 nav a.home-link {
-  padding: 10px;
-  font-size : 40px;
+    padding: 10px;
+    font-size: 40px;
 }
 
 nav a.works-link {
-  margin-top: 20px;
-  font-size: 30px;
-  text-decoration: none;
+    margin-top: 20px;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 nav a.contact-link {
-  padding: 10px;
-  font-size: 40px;
+    padding: 10px;
+    font-size: 40px;
 }
 
 nav a.resume-link {
-  padding: 10px;
-  font-size: 40px;
+    padding: 10px;
+    font-size: 40px;
 }
 
 .intro {
-  height: 100vh;
-  text-align: center;
+    height: 100vh;
+    text-align: center;
 }
 
 .landing-image {
-  opacity: .5;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 .header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding-top: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 250px;
 }
 
 .title {
-  margin-bottom: 25px;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 7rem;
-  color: #43997e;
+    margin-bottom: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 7rem;
+    color: #43997e;
 }
 
 .subtitle {
-  font-size: 2rem;
-  font-family: Papyrus, fantasy;
-  color: #43997e;
+    font-size: 2rem;
+    font-family: Papyrus, fantasy;
+    color: #43997e;
 }
 
 .resume-body {
-  background-color: #1b877a;
+    background-color: #1b877a;
 }
