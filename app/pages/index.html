@@ -12,20 +12,29 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div>
-            <a ui-sref="landing" class="home-link">
-                <i class="fa fa-home" aria-hidden="true"></i>
-            </a>
-            <a href="#works" class="works-link">My Work</a>
-            <a ui-sref="contact" class="contact-link">
-                <i class="fa fa-address-card" aria-hidden="true"></i>
-            </a>
-            <a ui-sref="resume" class="resume-link">
-              <i class="fa fa-file-text" aria-hidden="true"></i>
-            </a>
-        </div>
-    </nav>
+    <div class="wrapper closed" id="main-wrapper">
+        <nav>
+            <div class="navbar-inner clear-fix">
+                <a ui-sref="landing" class="home-link"></a>
+                <div class="navbar-menu">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="/#about"  target="_self"  class="about-me-link">About Me</a>
+                        </li>
+                        <li>
+                            <a href="/#works" target="_self" class="works-link">My Work</a>
+                        </li>
+                        <li>
+                            <a ui-sref="contact" class="contact-link">Contact</a>
+                        </li>
+                        <li>
+                            <a ui-sref="resume" class="resume-link">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
     <ui-view></ui-view>
     <!--AngularJS links-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
