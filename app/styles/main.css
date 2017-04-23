@@ -117,14 +117,12 @@ nav ul li a:visited {
     font-size: 2rem;
 }
 
-.about-me {
-
-}
+.about-me {}
 
 .about-me .summary {
-  font-weight: 500;
-  font-size: 1.25rem;
-  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 }
 
 .portfolio {
@@ -132,14 +130,15 @@ nav ul li a:visited {
 }
 
 .portfolio .bloc-chat {
+    margin-bottom: 20px;
     max-height: 500px;
     background-color: #678a66;
-    overflow: hidden;
+    box-shadow: 10px 10px 5px #888888;
 }
 
 .portfolio .bloc-chat .chat-img {
     background: url(/assets/images/blocchat.png) no-repeat center center;
-    background-size: 100%;
+    background-size: contain;
     height: 500px;
 }
 
@@ -147,12 +146,28 @@ nav ul li a:visited {
     font-family: sans-serif;
     font-weight: bold;
     height: 500px;
+    overflow: auto;
+}
+
+.portfolio .bloc-jams {
+    margin-bottom: 20px;
+    max-height: 500px;
+    background-color: #94bf92;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px #888888;
 }
 
 .portfolio .bloc-jams .jams-img {
     background: url(/assets/images/blocjams.png) no-repeat center center;
     background-size: contain;
     height: 500px;
+}
+
+.portfolio .bloc-jams .jams-study {
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 500px;
+  overflow: auto;
 }
 
 iframe {
