@@ -117,7 +117,13 @@ nav ul li a:visited {
     font-size: 2rem;
 }
 
-.about-me {}
+.intro .header .title .subtitle .info-links {
+  display: inline-block;
+}
+
+i {
+  margin: 10px 10px 10px 10px;
+}
 
 .about-me .summary {
     font-weight: 500;
